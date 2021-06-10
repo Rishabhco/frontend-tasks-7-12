@@ -21,7 +21,7 @@ var shprompt4=()=>{
 }
 var submit = () => {
     var f=Number(c)+Number(d)-Number(e);
-    if(Math.max(b,f)===b){
+    if(Math.max(b,f)==b){
         document.getElementById('nb').value=f;
     }
     else{
