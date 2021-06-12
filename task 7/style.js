@@ -1,4 +1,4 @@
-var pattern=new RegExp(/^\d$/);
+var pattern=new RegExp(/^[1-9]+[0-9]*$/);
 var add = () => {
     var inp1 = document.getElementById("n1").value;
     var inp2 = document.getElementById("n2").value;
